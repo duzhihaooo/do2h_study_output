@@ -1,10 +1,7 @@
 package com.dodo.study.stream;
 
-import com.dodo.study.inout.In;
-
 import java.util.Arrays;
 import java.util.List;
-import java.util.logging.XMLFormatter;
 import java.util.stream.Collectors;
 
 public class Test1 {
