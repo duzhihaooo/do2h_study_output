@@ -24,10 +24,10 @@ public class ThreadClassDemo {
         System.out.println("Starting thread3...");
         Thread thread3 = new GuessANumber(27);
         thread3.start();
-        try{
+        try {
             //.join 等待该线程终止的时间最长为 millis 毫秒
             thread3.join();
-        } catch (InterruptedException e){
+        } catch (InterruptedException e) {
             System.out.println("Thread interrupted.");
         }
         System.out.println("Starting thread4...");
