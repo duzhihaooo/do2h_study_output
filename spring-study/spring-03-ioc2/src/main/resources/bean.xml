@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<!--
+	id:bean的唯一标识符，相当于对象名
+	class:bean对象所对应的全限定名：包名+类型
+	name:别名，而且name可以同时取多个别名
+	-->
+	<bean id="user" class="com.dodo.pojo.User" name="userNew，u2,u3">
+		<constructor-arg name="name" value="kiki"/>
+	</bean>
+	
+	<bean id="userTwo" class="com.dodo.pojo.UserTwo">
+	
+	</bean>
+	
+
+</beans>
