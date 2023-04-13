@@ -1,0 +1,13 @@
+person:
+  name: Jacky
+  age: 22
+  happy: true
+  birth: 1997/06/16
+  maps: {k1: v1,k2: v2}
+  lists:
+    - game
+    - music
+    - code
+  dog:
+    name: fofo
+    age: 3
